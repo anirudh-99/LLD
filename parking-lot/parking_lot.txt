@@ -1,0 +1,23 @@
+Requirements:
+
+Objects:
+1. Entry gate -> getEmptyParkingLot(), updateParkingSpace(), generateEntryTicket()
+2. Exit gate -> calculateFee(),emptyParkingLot(), acceptPayment()
+4. Parking spot -> id,isEmpty(), Vehicle, price, type(2 or 4 wheeler)
+5. Vehicle
+        vehicle type -> 2 wheeler,4 wheeler
+        vehicle no.
+6. ticket -> entry time, parking spot
+
+Limitations:
+1. What happens if I want to add another vehicle type (eg: heavy vehicle)? Use inheritance here.
+2. Use strategy patterns for encapsulating the logic of parking slots management. How would
+ you handle 2 and 4 wheeler parking slots management separately?
+3. How would you handle different ways of parking a vehicle(i.e. parking strategy)?
+ eg: give priority to the nearest parking space.
+4. How would you handle different ways of parking cost computation? eg: for two wheeler, for 4 wheeler,
+based on mins, based on hrs etc..
+5. How would you handle different kinds of payment? eg: card payment, upi payment or cash payment
+
+
+
